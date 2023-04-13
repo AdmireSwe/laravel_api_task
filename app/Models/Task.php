@@ -14,18 +14,6 @@ class Task extends Model
         'user_id'
     ];
 
-  //  public function id(): string 
-    //{
-      //  return(string) $this->id;
-    //}
-    //public function title(): string 
-    //{
-      //  return $this->title;
-    //}
-    //public function description(): string
-    //{
-      //  return $this->description;
-    //}
 
     public function user(){
        return $this->belongsTo(User::class);

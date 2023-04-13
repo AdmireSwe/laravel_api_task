@@ -9,6 +9,7 @@ class StoreUserRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
+     * By default set to true for testing purpose.
      */
     public function authorize(): bool
     {
